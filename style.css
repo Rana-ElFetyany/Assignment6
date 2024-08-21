@@ -188,7 +188,6 @@ background-color: rgba(0, 0, 0, 0.3);
   left: 0px;
   right: 0px;
   background-color: rgba(0, 0, 0, 0.3);
-  /* !==>   كنت عاوزه اعؤف ازاي اخلى الصوره كأنها absorbed كدا و من غير الوان  <== */
 }
 
 /* CONTACT section */
@@ -240,7 +239,9 @@ form button:hover {
 .location-photo img {
   width: 100%;  
   margin-top: 20px;
-/* ! ==>  الجزء دا حاولت اخلصى الصوره 98% ويدث مثلا و اعملها زي الفوق مرضتش خالص مش فاهمه ليه <== */
+}
+.location-photo {
+  margin: 20px;
 }
 
 /* FOOTER Section */
