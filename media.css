@@ -1,0 +1,57 @@
+@media (max-width: 600px) {
+  .navbar {
+    padding: 7px 20px;
+    font-size: 20px;
+  }
+  .navbar__links {
+    display: none;
+  }
+
+  /* HOME section */
+  .home__container {
+    height: 40vw;
+    width: 100%;
+  }
+  .home__container .home__Arch-text {
+    display: none;
+  }
+  .home__black-BR {
+    background-color: black;
+    font-size: 30px;
+    opacity: 70%;
+  }
+
+  /* PROJECTS section */
+  .projects__content .content__card {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  /* ABOUT section */
+  .content__card {
+    width: 100%;
+  }
+
+  /* FOOTER Section */
+
+  .footer {
+    padding: 30px;
+  }
+}
+@media (max-width: 995px) and (min-width: 601px) {
+.home__container {
+    height: 55vw;
+    width: 100%;
+  }
+
+  /* PROJECTS section */
+  .projects__content .content__card {
+    width: 49%;
+    margin-top: 5px;
+  }
+
+  /* ABOUT section */
+  .content__card {
+    width: 49%;
+  }
+}

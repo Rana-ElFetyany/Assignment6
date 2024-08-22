@@ -147,6 +147,7 @@ background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: space-between;
   align-items: center;
+    flex-wrap: wrap;
 }
 
 .content__card {
@@ -176,18 +177,10 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 .card__img > img {
   width: 100%;
+  filter: grayscale(70%);
 }
 .card__img {
   position: relative;
-}
-
-.card__img > .layer {
-  position: absolute;
-  top: 0px;
-  bottom: 5px;
-  left: 0px;
-  right: 0px;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* CONTACT section */
@@ -241,7 +234,7 @@ form button:hover {
   margin-top: 20px;
 }
 .location-photo {
-  margin: 20px;
+  margin: 5px 30px;
 }
 
 /* FOOTER Section */
